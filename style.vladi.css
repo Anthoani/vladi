@@ -1,0 +1,26 @@
+#foto{
+    border-radius: 100%;
+}
+
+/* Para definir o tamanho de todos os ícones Bootstrap no rodapé */
+footer .bi {
+    font-size: 24px; /* Define o tamanho para 24px */
+    /* Outros estilos como cor no hover */
+    transition: color 0.3s ease;
+}
+
+#facebook .bi:hover {
+    color: #007bff !important; /* Exemplo: mudar para a cor primária do Bootstrap no hover */
+}
+
+#youtube .bi:hover{
+    color: red !important;
+}
+
+#instagram .bi:hover{
+    color: rgb(227, 37, 164) !important;
+}
+
+.border-grossa{
+    border-width: 30px !important;
+}
